@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         rollButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Log.d("Hello", "Hello World!");
+
 
                 Random randomNumberGenerator = new Random();
                 int number = randomNumberGenerator.nextInt(6);
